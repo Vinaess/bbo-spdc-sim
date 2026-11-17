@@ -1,0 +1,21 @@
+# BBO SPDC Simülasyon Parametreleri
+
+crystal:
+  material: "BBO"
+  type: 2                         
+  thickness_mm: 2.00              
+  thickness_tolerance_mm: 0.05    
+  cut_angle_deg: 41.8             
+  cut_angle_tolerance_deg: 0.5    
+
+pump:
+  wavelength_nm: 405
+  polarization_deg: 45            
+
+spdc:
+  signal_wavelength_nm: 810
+  idler_wavelength_nm: 810
+  is_degenerate: true
+
+filters:
+  signal_bandwidth_nm: 10
