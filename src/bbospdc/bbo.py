@@ -38,7 +38,7 @@ def type2_phase_matching_angle(pump_wl, signal_wl, idler_wl):
     return np.degrees(theta_pm_rad)
 
 if __name__ == "__main__":
-    # --- AŞAMA 1: TEMEL İNDİS TESTİ (Başarıyla tamamlandı, yoruma alındı) ---
+    # --- AŞAMA 1: TEMEL İNDİS TESTİ (Başarıyla tamamlandı) ---
     # İlk olarak Sellmeier denklemlerimizin doğru çalışıp çalışmadığını test ettik.
     # print("--- BBO Temel Kırılma İndisleri ---")
     # print(f"405 nm n_o: {no(0.405):.5f}")
