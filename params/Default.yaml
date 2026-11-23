@@ -19,3 +19,13 @@ spdc:
 
 filters:
   signal_bandwidth_nm: 10
+
+  fiber:
+  type: "SMF"             # YARIN ÖĞRENİNCE SADECE BURAYI "MMF" YAPABİLİRSİN
+  mode_radius_um: 2.5     # SMF için çekirdek yarıçapı genelde 2.5 µm'dir (MMF ise ~25.0 olur)
+  distance_from_crystal_mm: 100.0  # Fiberin kristale uzaklığı
+
+detector:
+  model: "Excelitas SPCM-AQRH-14-TR-BR1"
+  quantum_efficiency: 0.65  # Excelitas'ın 810 nm'deki yakalama başarısı (~%65)
+  dark_count_rate_hz: 100   # Karanlık sayım gürültüsü
